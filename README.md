@@ -2,7 +2,7 @@
 
 Python environment for the Bitcraze Crazyflie client (cfclient 2026.8.1) on Windows.
 
-The repo holds the pinned package list only. The virtual environment itself is not committed, since it has hard-coded local paths and is around 430 MB.
+The repo holds the full virtual environment (Include, Lib, Scripts, pyvenv.cfg) and the pinned package list. The venv has hard-coded paths, so it only runs as is from C:\cfclient-env311 with the same uv Python install. On any other PC, rebuild it from requirements.txt as below.
 
 ## Setup
 
